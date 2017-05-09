@@ -4,7 +4,7 @@ import * as actions from './Weather.actions';
 
 class Weather extends React.Component {
   componentDidMount() {
-    this.props.getWeather(this.props.params.name);
+    this.props.getWeather(this.props.params.title);
   }
   componentWillReceiveProps(newProps) {
     if (thisprops.params.name !== newProps.params.name) {
