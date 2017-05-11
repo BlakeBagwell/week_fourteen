@@ -8,7 +8,7 @@ export default function reducer(state = INITIAL_STATE, action) {
     return Object.assign({}, state, {
       [action.field]: action.content
     });
-  } else if (action.type === 'success'){
+  } else if (action.type === 'success') {
     console.log('Success!');
   } else if (action.type === 'error') {
     console.log('error');
