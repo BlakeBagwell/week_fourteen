@@ -22,6 +22,7 @@ class Home extends React.Component {
   }
 }
 
+
 const HomeContainer = ReactRedux.connect(
   state => state.home,
   actions

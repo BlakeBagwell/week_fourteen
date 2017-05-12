@@ -29,3 +29,7 @@ ul.nav:after {
 .active {
   color: red;
 }
+
+.form-element {
+  display: block;
+}

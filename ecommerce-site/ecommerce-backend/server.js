@@ -73,8 +73,8 @@ app.post('/api/user/signup', (req, resp, next) => {
           data.username,
           data.email,
           encryptedPassword,
-          data.first_name,
-          data.last_name
+          data.first,
+          data.last
         ]
       )
     )
